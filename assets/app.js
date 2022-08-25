@@ -21,4 +21,5 @@ import greet from './controllers/greet';
 
 import $ from 'jquery';
 import 'bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/bootstra386/dist/css/bootstrap.min.css';
