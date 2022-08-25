@@ -5,8 +5,20 @@
  * (and its CSS file) in your base layout (base.html.twig).
  */
 
-// any CSS you import will output into a single css file (app.css in this case)
-import './styles/app.css';
+// Custom styles
+//import './styles/app.css';
 
 // start the Stimulus application
-import './bootstrap';
+//import './bootstrap';
+
+// Testing
+// import the function from greet.js (the .js extension is optional)
+import greet from './controllers/greet';
+
+//$(document).ready(function() {
+//    $('body').prepend('<h1>'+greet('aloit')+'</h1>');
+//});
+
+import $ from 'jquery';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
