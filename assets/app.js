@@ -1,25 +1,16 @@
-/*
- * Welcome to your app's main JavaScript file!
- *
- * We recommend including the built version of this JavaScript file
- * (and its CSS file) in your base layout (base.html.twig).
- */
+// Audio visualizer
+import './styles/audio_visualizer.css';
 
-// Custom styles
-//import './styles/app.css';
-
-// start the Stimulus application
-//import './bootstrap';
-
-// Testing
-// import the function from greet.js (the .js extension is optional)
+// Custom js
 import greet from './controllers/greet';
-
-//$(document).ready(function() {
-//    $('body').prepend('<h1>'+greet('aloit')+'</h1>');
-//});
+import './controllers/audio_visualizer';
 
 import $ from 'jquery';
-import 'bootstrap';
-//import 'bootstrap/dist/css/bootstrap.min.css';
+window.$ = window.jQuery = $;
+
+import './bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
+
 import './styles/bootstra386/dist/css/bootstrap.min.css';
+
+import './styles/app.css';
